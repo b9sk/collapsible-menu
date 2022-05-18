@@ -46,3 +46,7 @@ body {
 input#menu {
   display: none;
 }
+
+input:checked + label {
+  background-image: url(menu-close.svg);
+}
